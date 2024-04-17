@@ -50,13 +50,12 @@ text_clf = Pipeline([
 
 #--- Fit the model to the training data
 #
-# TODO: add one line to fit text_clf using X_train and y_train as the inputs
+# add one line to fit text_clf using X_train and y_train as the inputs
 text_clf.fit(x_train, y_train)
     
 #--- Use the trained model to predict classes on the test set       
 #
-# TODO: complete the right-hand side to use text_clf to predict the labels for X_test
-
+# complete the right-hand side to use text_clf to predict the labels for X_test
 predicted = text_clf.predict(x_test)
 
 
